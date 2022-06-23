@@ -1,0 +1,21 @@
+Install terraform for MAC
+
+- Install homebrew 
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(https://brew.sh/)
+
+#update brew
+brew update 
+
+#install terraform
+brew install terraform 
+
+#Review terraform is installed
+terraform -help
+
+#Install terraform auto-complete
+touch ~/.bashrc 
+terraform -install-autocomplete
+
+
